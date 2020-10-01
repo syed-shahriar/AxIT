@@ -1,0 +1,415 @@
+@media (min-width: 1281px) {
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .user-comment .col-md-4 .user .col-md-8{
+        text-align: center;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .navbar-light .navbar-toggler {
+        background: white;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    header button:focus {
+        outline: none;
+    }
+
+    header .nav-item {
+        text-align: right;
+        margin-right: 10px;
+    }
+    .banner .row{
+        flex-direction: column;
+    }
+    .banner{
+        height: auto;
+    }
+
+    .banner .row .col-md-6 {
+        max-width: 100%;
+    }
+
+    .banner .banner-form {
+        width: 90%;
+        display: inline-block;
+        height: auto;
+        margin: 40px 0px;
+    }
+
+    .banner-text{
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .banner-text .line{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .banner-text p {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .banner .card-header{
+        text-align: center;
+    }
+
+    .link ul li a i {
+        font-size: 33px;
+        margin: 50px 10px;
+        color: #cccccc;
+    }
+
+    .feature .row{
+        flex-direction: column;
+    }
+
+    .tab ul{
+        display: flex;
+    }
+
+    .feature, .sub-list, .sub2-list{
+        padding: 60px 0px;
+    }
+
+    .feature .col-md-2{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tab{
+        margin: 0 auto;
+    }
+
+    .feature .col-md-6{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .feature .col-md-4{
+        max-width: 100%;
+    }
+
+    .feature .col-md-4 img{
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+
+
+    .sub-list .row{
+        flex-direction: column;
+    }
+
+    .sub-list .col-md-5, .sub-list .col-md-6{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .image-left{
+        margin: 0 auto;
+    }
+
+    .offset-1 {
+        margin-left: 0px;
+    }
+
+    .sub-list .col-md-6 .line{
+        margin: 10px auto;
+    }
+
+    .sub-down .row{
+        flex-direction: row;
+    }
+
+    .sub-upper{
+        margin: 0 auto;
+    }
+
+    .sub-down .col-md-9{
+        text-align: left;
+    }
+
+    .sub2-list .row{
+        flex-direction: column-reverse;
+    }
+
+    .sub2-list .row .col-md-6{
+        max-width: 100%;
+    }
+
+    .sub2-list .row .col-md-6 img{
+        margin: 0 auto;
+    }
+
+    .sub2-list .row .col-md-6 .text{
+        text-align: center;
+    }
+
+    .sub2-list .row .col-md-6 .text .line{
+        margin: 10px auto;
+    }
+
+    .pricing .container, .comments .col-md-4{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .comments .box{
+        margin-left: 10px;
+    }
+
+    .comments .box p{
+        padding: 20px 15px;
+    }
+
+    .user-comment .col-md-4 .user{
+        margin-left: 30px;
+    }
+
+    .user-comment .col-md-4 .user .col-md-8{
+        text-align: center;
+    }
+
+    .comments , .custom-section , .contact , .pricing{
+        padding: 60px 0px;
+    }
+
+  }
+  
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar-light .navbar-toggler {
+        background: white;
+        color: white;
+        border: 2px solid black;
+    }
+    
+    header button:focus {
+        outline: none;
+    }
+
+    header .nav-item {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .banner .row{
+        flex-direction: column;
+    }
+    .banner{
+        height: auto;
+    }
+
+    .banner .row .col-md-6 {
+        max-width: 100%;
+    }
+
+    .banner .banner-form {
+        width: 90%;
+        display: inline-block;
+        height: auto;
+        margin: 40px 0px;
+    }
+
+    .banner-text{
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .banner-text .line{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .banner-text p {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .banner .card-header{
+        text-align: center;
+    }
+
+    .banner .card{
+        margin: 0 auto;
+    }
+
+    .banner .banner-form {
+        width: 100%;
+    }
+
+    .link{
+        text-align: center;
+    }
+
+    .link ul li a i {
+        font-size: 30px;
+        margin: 30px 7px;
+    }
+
+    .feature .row{
+        flex-direction: column;
+    }
+
+    .tab ul{
+        display: flex;
+    }
+
+    .feature, .sub-list, .sub2-list{
+        padding: 60px 0px;
+    }
+
+    .feature .col-md-2{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .feature .col-md-6{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .feature .col-md-4{
+        max-width: 100%;
+    }
+
+    .feature .col-md-4 img{
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+
+
+    .sub-list .row{
+        flex-direction: column;
+    }
+
+    .sub-list .col-md-5, .sub-list .col-md-6{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .image-left{
+        margin: 0 auto;
+    }
+
+    .offset-1 {
+        margin-left: 0px;
+    }
+
+    .sub-list .col-md-6 .line{
+        margin: 10px auto;
+    }
+
+    .sub-down .col-md-2{
+        max-width: 20%;
+    }
+
+    .sub-down .col-md-9{
+        max-width: 80%;
+    }
+    
+    .sub-down .row{
+        flex-direction: row;
+        margin-top: 15px;
+    }
+
+    .sub-upper{
+        margin: 0 auto;
+    }
+
+    .sub-down .col-md-9{
+        text-align: left;
+    }
+
+    .sub2-list .row{
+        flex-direction: column-reverse;
+    }
+
+    .sub2-list .row .col-md-6{
+        max-width: 100%;
+    }
+
+    .sub2-list .row .col-md-6 img{
+        margin: 0 auto;
+    }
+
+    .sub2-list .row .col-md-6 .text{
+        text-align: center;
+    }
+
+    .sub2-list .row .col-md-6 .text .line{
+        margin: 10px auto;
+    }
+
+    .pricing .container, .comments .col-md-4{
+        padding-right: 15px;
+        padding-left: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .comments .box {
+        margin-left: 10px;
+    }
+
+    .comments .box{
+        margin-left: 10px;
+    }
+
+    .comments .box p{
+        padding: 20px 15px;
+    }
+
+    .user-comment .col-md-4 .user{
+        margin-left: 0px;
+    }
+
+    .user-comment .col-md-4 .user .col-md-8{
+        text-align: center;
+    }
+
+    .comments , .custom-section , .contact , .pricing{
+        padding: 60px 0px;
+    }
+
+    .card2 .col-md-4{
+        margin-bottom: 15px;
+    }
+    
+    .icon-box {
+        left: 47%;
+    }
+    
+  }
